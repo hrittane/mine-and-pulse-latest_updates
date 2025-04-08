@@ -1,0 +1,416 @@
+{
+    "HorizonLayout": [
+      {
+        "parallax": false,
+        "enablePa¬allax": false,
+        "isHorizontal": false, 
+        "marginLeft": 4,
+        "layout": "bannerImage",
+        "fit": "cover",
+        "marginRight": 0,
+        "parallaxImageRatio": 1.2,
+        "design": "static",
+        "marginBottom": 15,
+        "items": [
+          {
+            "image": "assets/images/banner.jpg",
+            "padding": 15,
+            "tab": "category",
+            "bannerWithProduct": false,
+            "showSubcategory": false,
+            "video": "",
+            "title": {
+              "fontFamily": "Roboto",
+              "color": "ffffffff",
+              "x": 0,
+              "y": 0.8,
+              "fontSize": 17.95890935972417,
+              "text": "Mine & Pulse : partenaire de votre croissance durable.",
+              "enableShadow": false
+            },
+            "defaultShowProduct": false,
+            "products": []
+          }
+        ],
+        "marginTop": 12,
+        "height": 0.4
+      },
+      {
+        "showCartIcon": false,
+        "imageBoxfit": "contain",
+        "showStockStatus": false,
+        "featured": false,
+        "hideEmptyProductLayout": false,
+        "titleLine": 2,
+        "showCountDown": false,
+        "parallax": false,
+        "columns": 2,
+        "hideStore": false,
+        "vPadding": 0,
+        "showQuantity": false,
+        "showHeart": false,
+        "hMargin": 0,
+        "parallaxImageRatio": 1,
+        "showCartButtonWithQuantity": false,
+        "vMargin": 0,
+        "showOnlyImage": false,
+        "onSale": false,
+        "productType": false,
+        "order": "desc",
+        "image": "",
+        "productListItemHeight": 256,
+        "showCartIconColor": true,
+        "orderby": "date",
+        "hPadding": 0,
+        "hidePrice": false,
+        "rows": 1,
+        "enableBottomAddToCart": false,
+        "layout": "twoColumn",
+        "enableRating": true,
+        "imageRatio": 1,
+        "hideTitle": false,
+        "borderRadius": 0,
+        "cardDesign": "card",
+        "backgroundRadius": 0,
+        "isSnapping": false,
+        "showCartButton": false,
+        "name": "NOS DERNIERS PRODUITS",
+        "cartIconRadius": 9,
+        "enableAutoSliding": false,
+        "hideEmptyProductListRating": false
+      }
+    ],
+    "Setting": {
+      "ShowChat": true,
+      "MainColor": null,
+      "FontFamily": "Poppins",
+      "FontHeader": "Poppins",
+      "StickyHeader": true,
+      "TabBarConfig": {
+        "enableOnTop": false,
+        "color": null,
+        "radiusTopLeft": 0,
+        "paddingRight": 0,
+        "radiusTopRight": 0,
+        "TabBarIndicator": {
+          "strokeWidth": 0,
+          "color": null,
+          "horizontalPadding": 0,
+          "topRightRadius": 0,
+          "tabPosition": "bottom",
+          "bottomRightRadius": 0,
+          "bottomLeftRadius": 0,
+          "topLeftRadius": 0,
+          "paintingStyle": "fill",
+          "distanceFromCenter": 0,
+          "radius": 0,
+          "verticalPadding": 0,
+          "height": 0
+        },
+        "showMinimize": false,
+        "marginRight": 0,
+        "enableDivider": true,
+        "paddingBottom": 0,
+        "indicatorStyle": "none",
+        "enable": true,
+        "radiusBottomRight": 0,
+        "iconSize": 22,
+        "showFloatingClip": true,
+        "paddingTop": 0,
+        "isSafeArea": true,
+        "TabBarFloating": {
+          "elevation": 2,
+          "color": null,
+          "width": 50,
+          "floatingType": "circle",
+          "location": null,
+          "isCoverMode": false,
+          "position": 0,
+          "notchMargin": 4,
+          "radius": 50,
+          "height": 50
+        },
+        "showFloating": false,
+        "colorActiveIcon": null,
+        "colorCart": null,
+        "radiusBottomLeft": 0,
+        "alwaysShowTabBar": false,
+        "marginLeft": 0,
+        "colorIcon": null,
+        "marginBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0
+      },
+      "ProductListLayout": "list",
+      "backgroundColor": "#ffffff",
+      "ProductDetail": "simpleType"
+    },
+    "TabBar": [
+      {
+        "layout": "home",
+        "fontFamily": "CupertinoIcons",
+        "fullscreen": false,
+        "pos": 100,
+        "defaultTab": false,
+        "icon": "home",
+        "label": "Accueil",
+        "key": "QhHxQkpmRT"
+      },
+      {
+        "layout": "cart",
+        "fontFamily": "CupertinoIcons",
+        "visible": true,
+        "fullscreen": false,
+        "pos": 300,
+        "defaultTab": false,
+        "label": "Panier",
+        "icon": "shopping_cart",
+        "key": "CGaSXfsLDF"
+      },
+      {
+        "layout": "profile",
+        "settings": [
+          "notifications",
+          "order",
+          "rating"
+        ],
+        "fontFamily": "CupertinoIcons",
+        "fullscreen": false,
+        "pos": 400,
+        "defaultTab": false,
+        "showBackground": false,
+        "label": "Profil",
+        "icon": "person",
+        "drawerIcon": {
+          "fontFamily": "CupertinoIcons",
+          "icon": "line_horizontal_3"
+        },
+        "key": "tjrstqMjTI"
+      }
+    ],
+    "Drawer": {
+      "items": [
+        {
+          "type": "home",
+          "show": false
+        },
+        {
+          "type": "blog",
+          "show": false
+        },
+        {
+          "type": "categories",
+          "show": false
+        },
+        {
+          "type": "profile",
+          "show": false
+        },
+        {
+          "type": "login",
+          "show": false
+        },
+        {
+          "type": "category",
+          "show": false
+        },
+        {
+          "type": "web-dKFYeDoFum1",
+          "show": true
+        },
+        {
+          "type": "web-dKFYeDoFum2",
+          "show": true
+        },
+        {
+          "type": "web-dKFYeDoFum",
+          "show": true
+        },
+        {
+          "type": "web-CrhhNonFmB",
+          "show": true
+        }
+      ],
+      "filter": 0,
+      "logoConfig": {
+        "height": 38,
+        "marginLeft": 5,
+        "marginRight": 0,
+        "marginTop": 60,
+        "marginBottom": 10,
+        "alignment": "center",
+        "boxFit": "contain"
+      },
+      "enable": true,
+      "logo": "assets/images/logo1.png",
+      "subDrawerItem": {
+        "web-dKFYeDoFum1": {
+          "webUrl": "https://mineandpulse.com/services/",
+          "webViewMode": true,
+          "requiredLogin": false,
+          "enableForward": false,
+          "enableBackward": false,
+          "enableClose": true,
+          "script": "",
+          "icon": "format_list_bulleted",
+          "iconFontFamily": "MaterialIcons",
+          "title": "Services"
+        },
+        "web-dKFYeDoFum2": {
+          "webUrl": "https://mineandpulse.com/nos-realisations/",
+          "webViewMode": true,
+          "requiredLogin": false,
+          "enableForward": false,
+          "enableBackward": false,
+          "enableClose": true,
+          "script": "",
+          "icon": "auto_awesome_mosaic",
+          "iconFontFamily": "MaterialIcons",
+          "title": "Nos realisations"
+        },
+        "web-dKFYeDoFum": {
+          "webUrl": "https://mineandpulse.com/a-propos/",
+          "webViewMode": true,
+          "requiredLogin": false,
+          "enableForward": false,
+          "enableBackward": false,
+          "enableClose": true,
+          "script": "",
+          "icon": "info",
+          "iconFontFamily": "MaterialIcons",
+          "title": "À propos"
+        },
+        "web-CrhhNonFmB": {
+          "webUrl": "https://mineandpulse.com/contact/",
+          "webViewMode": true,
+          "requiredLogin": false,
+          "enableForward": false,
+          "enableBackward": false,
+          "enableClose": true,
+          "script": "",
+          "icon": "mail_solid",
+          "iconFontFamily": "CupertinoIcons",
+          "title": "Contactez-nous"
+        }
+      },
+      "safeArea": false,
+      "key": "bVhTgoAKRf"
+    },
+    "AppBar": {
+      "elevation": 0,
+      "pinned": true,
+      "showOnScreens": [
+        "home"
+      ],
+      "enable": true,
+      "floating": true,
+      "alwaysShowAppBar": false,
+      "expandedItems": [],
+      "items": [
+        {
+          "spacingText": 3,
+          "paddingRight": 4,
+          "icon": "line_horizontal_3",
+          "type": "icon",
+          "marginRight": 4,
+          "avatarRadius": 100,
+          "headerFontWeight": "400",
+          "fontFamily": "CupertinoIcons",
+          "paddingBottom": 4,
+          "headerFontSize": 16,
+          "pos": 100,
+          "action": "menu",
+          "iconSize": 24,
+          "paddingTop": 4,
+          "radius": 18,
+          "fontWeight": "400",
+          "key": "gbs354efgo",
+          "backgroundColor": "0",
+          "headerTextOpacity": 0.5,
+          "marginLeft": 16,
+          "size": 40,
+          "textOpacity": 0.5,
+          "fontSize": 16,
+          "marginBottom": 4,
+          "alignment": "center",
+          "paddingLeft": 4,
+          "marginTop": 4
+        },
+        {
+          "spacingText": 3,
+          "paddingRight": 4,
+          "icon": "person",
+          "type": "image",
+          "marginRight": 4,
+          "avatarRadius": 100,
+          "headerFontWeight": "400",
+          "fontFamily": "CupertinoIcons",
+          "paddingBottom": 4,
+          "headerFontSize": 16,
+          "pos": 200,
+          "action": "home",
+          "iconSize": 24,
+          "paddingTop": 4,
+          "radius": 0,
+          "fontWeight": "400",
+          "key": "PmhpBYmoET",
+          "image": "assets/images/logo.png",
+          "headerTextOpacity": 0.5,
+          "marginLeft": 4,
+          "size": 44,
+          "width": 60,
+          "textOpacity": 0.5,
+          "fontSize": 16,
+          "marginBottom": 4,
+          "alignment": "center",
+          "paddingLeft": 4,
+          "marginTop": 4
+        },
+        {
+          "spacingText": 3,
+          "paddingRight": 4,
+          "icon": "bell",
+          "type": "icon",
+          "marginRight": 16,
+          "avatarRadius": 100,
+          "headerFontWeight": "400",
+          "fontFamily": "CupertinoIcons",
+          "paddingBottom": 4,
+          "headerFontSize": 16,
+          "pos": 300,
+          "action": "notification",
+          "iconSize": 24,
+          "paddingTop": 4,
+          "radius": 18,
+          "fontWeight": "400",
+          "key": "hikTiTbsPu",
+          "backgroundColor": "0",
+          "headerTextOpacity": 0.5,
+          "marginLeft": 4,
+          "size": 40,
+          "textOpacity": 0.5,
+          "fontSize": 16,
+          "marginBottom": 4,
+          "alignment": "center",
+          "paddingLeft": 4,
+          "marginTop": 4
+        }
+      ],
+      "snap": true
+    },
+    "overrideTranslation": {
+      "@@locale": "fr"
+    },
+    "smartChat": [
+      {
+        "app": "tel:+33643369314",
+        "description": "Appelez-nous",
+        "iconData": "phone"
+      },
+      {
+        "app": "mailto:ccontact@mineandpulse.com",
+        "description": "Contactez-nous",
+        "iconData": "sms"
+      }
+    ]
+  }

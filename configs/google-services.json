@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "426290413424",
+    "project_id": "mine-and-pulse",
+    "storage_bucket": "mine-and-pulse.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426290413424:android:a9cf3d3003fe2d9183d9b5",
+        "android_client_info": {
+          "package_name": "com.mineandpulse.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDVchyhMOOSn-ysiJZ4_jR1UjUNiXnCOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

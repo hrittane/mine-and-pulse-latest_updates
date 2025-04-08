@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "707311781388",
+    "project_id": "denhill-706b9",
+    "storage_bucket": "denhill-706b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707311781388:android:84fb34a7e3d13dd9779029",
+        "android_client_info": {
+          "package_name": "com.denhill.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDicAjTOiYx58rlhnknz1P6c3HNaOmDgYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
