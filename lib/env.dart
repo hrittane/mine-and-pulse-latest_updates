@@ -3,7 +3,7 @@ Map<String, dynamic> environment = {
   "appConfig": "lib/config/config_fr.json",
   "serverConfig": {
     "url": "https://mineandpulse.com/",
-     "type": "woo",
+    "type": "woo",
     "consumerKey": "ck_7a2f37bc840f970878ba2c55223e946e8bc0eae4",
     "consumerSecret": "cs_bb509588409d6451fa73cbfeffc57cd19ad66a9f"
   },
@@ -65,11 +65,11 @@ Map<String, dynamic> environment = {
     "EnableDigitsMobileLogin": false,
     "enableProductBackdrop": false,
     "kIsResizeImage": true,
-  
     "WebViewScript":
-      "function removeElements() {\n    const elementIds = [\n        \"mobile_head\",\n        \"pix-page-footer\",\n        \"cmplz-cookiebanner-container\",\n        \"calculatebuttonfin\",\n        \"wa\",\n        \"quoteSecionID\",\n        \"masthead\"\n    ];\n\n    elementIds.forEach(id => {\n        const element = document.getElementById(id);\n        if (element) {\n            element.remove();\n        }\n    });\n\n    const loadingElements = document.getElementsByClassName(\"pix-page-loading-bg\");\n    if (loadingElements.length > 0) {\n        loadingElements[0].remove();\n    }\n\n    const loadingElements2 = document.getElementsByClassName(\"pix-loading-circ-path\");\n    if (loadingElements2.length > 0) {\n        loadingElements2[0].remove();\n    }\n\n    const eConInnerElement = document.getElementsByClassName(\"e-con-inner\");\n    if (eConInnerElement.length > 0 && (window.location.href.includes('tarifs') || window.location.href.includes('rates'))) {\n        eConInnerElement[0].remove();\n    }\n}\n\nremoveElements();\n\nconst observer = new MutationObserver(mutations => {\n    mutations.forEach(mutation => {\n        if (mutation.addedNodes.length || mutation.removedNodes.length) {\n            removeElements();\n        }\n    });\n});\n\nconst config = { childList: true, subtree: true };\n\nobserver.observe(document.body, config);",
-    "PrivacyPoliciesPageUrlOrId": "https://mineandpulse.com/politique-de-confidentialite/",
-       "EnableMembershipUltimate": false,
+        'function removeElements() {const elementIds = ["mobile_head","footeridapp","cmplz-cookiebanner-container","calculatebuttonfin","wa","quoteSecionID","masthead"];elementIds.forEach(id => {const element = document.getElementById(id);if(element){element.remove();}});const loadingElements = document.getElementsByClassName("pix-page-loading-bg");if (loadingElements.length > 0) {loadingElements[0].remove();}const loadingElements2 = document.getElementsByClassName("pix-loading-circ-path");if (loadingElements2.length > 0) {loadingElements2[0].remove();}const eConInnerElement = document.getElementsByClassName("e-con-inner");if (eConInnerElement.length > 0 && (window.location.href.includes("tarifs") || window.location.href.includes("rates"))) {eConInnerElement[0].remove();}}removeElements();const observer = new MutationObserver(mutations => {mutations.forEach(mutation => {if (mutation.addedNodes.length || mutation.removedNodes.length) {    removeElements();}});});const config = { childList: true, subtree: true };observer.observe(document.body, config);',
+    "PrivacyPoliciesPageUrlOrId":
+        "https://mineandpulse.com/politique-de-confidentialite/",
+    "EnableMembershipUltimate": false,
     "gdpr": {
       "confirmCaptcha": "DELETE",
       "showPrivacyPolicyFirstTime": false,
@@ -146,7 +146,7 @@ Map<String, dynamic> environment = {
     ]
   },
   "defaultSettings": [
-     "products",
+    "products",
     "chat",
     "wishlist",
     "notifications",
@@ -182,7 +182,8 @@ Map<String, dynamic> environment = {
     'data': [
       {
         'title': 'Programmes de formation',
-        'desc': 'Renforcez les compétences de vos équipes avec des modules pratiques sur la stratégie, la RSE, et la digitalisation, adaptés aux besoins des collaborateurs et dirigeants.',
+        'desc':
+            'Renforcez les compétences de vos équipes avec des modules pratiques sur la stratégie, la RSE, et la digitalisation, adaptés aux besoins des collaborateurs et dirigeants.',
         'image': 'assets/images/onb1v.jpg'
       },
       {
@@ -199,7 +200,6 @@ Map<String, dynamic> environment = {
       }
     ],
   },
-
   "vendorOnBoardingData": [
     {
       'title': 'Welcome aboard',
@@ -212,7 +212,6 @@ Map<String, dynamic> environment = {
       'desc': 'Good Luck for great beginnings.'
     }
   ],
-
   "adConfig": {
     "ads": [],
     "enable": false,
@@ -411,7 +410,7 @@ Map<String, dynamic> environment = {
     "android": "AIzaSyDSNYVC-8DU9BTcyqkeN9c5pgVhwOBAvGg",
     "ios": "AIzaSyDSNYVC-8DU9BTcyqkeN9c5pgVhwOBAvGg"
   },
-"productDetail": {
+  "productDetail": {
     "height": 0.5372682709933658,
     "marginTop": 0.0,
     "safeArea": false,
@@ -456,7 +455,7 @@ Map<String, dynamic> environment = {
     "showHeart": false,
     "fixedBuyButtonToBottom": false
   },
-    "blogDetail": {
+  "blogDetail": {
     "showAuthorInfo": false,
     "showTextAdjustment": true,
     "showRelatedBlog": true,
@@ -527,11 +526,7 @@ Map<String, dynamic> environment = {
     "revenueGoogleApiKey": "goog_kpDTQdItiHkSrdjDdvLIwAdjOzG"
   },
   "smartChat": [
-    {
-      "app": "tel:+33643369314",
-      "iconData": "phone",
-      "description": "Mobile"
-    },
+    {"app": "tel:+33643369314", "iconData": "phone", "description": "Mobile"},
     {
       "app": "mailto:contact@mineandpulse.com",
       "description": "E-mail",

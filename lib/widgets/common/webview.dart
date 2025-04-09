@@ -62,7 +62,7 @@ mixin WebviewMixin {
     printLog('[WebView] getNavigationDelegate: $url');
     printLog('[WebView] :');
 
-    if (url.contains('recaptcha')) {
+    if (url.contains('about:blank')) {
       return NavigationDecision.prevent;
     }
 
